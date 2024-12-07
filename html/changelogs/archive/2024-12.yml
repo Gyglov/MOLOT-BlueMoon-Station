@@ -1,4 +1,3 @@
-
 2024-12-04:
   SandPoot:
   - rscadd: Higher staff can now set titles for you on the manifest using the security
@@ -44,3 +43,6 @@
   - bugfix: Misc things, like removing the bombs
   - rscadd: Medical patient rooms, for "fun"
   - rscadd: A work-around fix for medical having issues monitoring crew
+2024-12-07:
+  Darkest08:
+  - tgs: has something to do with tgs
