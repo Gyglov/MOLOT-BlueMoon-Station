@@ -74,8 +74,15 @@
 	key_third_person = "cluwnes"
 	message = "clowning around; laughs terribly..."
 	message_mime = null
-	sound = list('sound/voice/cluwnelaugh1.ogg', 'sound/voice/cluwnelaugh2.ogg', 'sound/voice/cluwnelaugh3.ogg')
+	sound = 'sound/voice/cluwnelaugh1.ogg'
 	emote_cooldown = 10 SECONDS
+
+/datum/emote/sound/human/cluwne/run_emote(mob/user, params)
+	// Set random emote sound
+	sound = pick('sound/voice/cluwnelaugh1.ogg', 'sound/voice/cluwnelaugh2.ogg', 'sound/voice/cluwnelaugh3.ogg')
+
+	// Return normally
+	. = ..()
 
 /datum/emote/sound/human/suka1
 	key = "suka"
